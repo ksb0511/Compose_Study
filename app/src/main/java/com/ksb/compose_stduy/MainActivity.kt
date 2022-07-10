@@ -35,6 +35,12 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
+@Composable
+fun Greeting2(name: String) {
+    Text(text = "Hello $name!")
+    Text(text = "Hello $name!")
+}
+
 // 미리보기
 @Preview(showBackground = true)
 @Composable
