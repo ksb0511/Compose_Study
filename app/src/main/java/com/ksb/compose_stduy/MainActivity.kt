@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// 연습용 PR
 // 뷰
 @Composable
 fun Greeting(name: String) {
